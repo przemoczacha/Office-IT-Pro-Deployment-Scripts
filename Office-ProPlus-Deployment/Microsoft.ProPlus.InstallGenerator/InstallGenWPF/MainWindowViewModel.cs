@@ -344,15 +344,7 @@ namespace MetroDemo
                 },
                 new ExcludeProduct()
                 {
-                    DisplayName = "Project"
-                },
-                new ExcludeProduct()
-                {
                     DisplayName = "Publisher"
-                },
-                new ExcludeProduct()
-                {
-                    DisplayName = "Visio"
                 },
                 new ExcludeProduct()
                 {

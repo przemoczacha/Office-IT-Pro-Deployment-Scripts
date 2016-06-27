@@ -697,12 +697,14 @@ namespace MetroDemo.ExampleViews
 
             foreach (var excludeApp in GlobalObjects.ViewModel.ExcludeProducts)
             {
+
                 var appIncluded = true;
 
                 if (configXml.ConfigurationXml.Add != null && configXml.ConfigurationXml.Add.Products != null)
                 {
                     foreach (var product in configXml.ConfigurationXml.Add.Products)
                     {
+
                         if (product.ExcludeApps == null) continue;
 
                         foreach (var e in product.ExcludeApps)
